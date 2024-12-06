@@ -18,7 +18,7 @@ public class Card
         Suit = suit;
         Rank = rank;
         Value = value;
-        ImagePath = $"Images/{Rank}_of_{Suit}.png"; // Убедитесь, что путь соответствует вашим изображениям
+        ImagePath = $"Images/{Rank}_of_{Suit}.png";
     }
 
     public override string ToString()
