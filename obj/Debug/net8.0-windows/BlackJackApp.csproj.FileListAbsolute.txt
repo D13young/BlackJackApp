@@ -36,3 +36,4 @@ C:\Users\Serg\Desktop\BlackJack\BlackJackApp\BlackJackApp\obj\Debug\net8.0-windo
 C:\Users\Serg\Desktop\BlackJack\BlackJackApp\BlackJackApp\obj\Debug\net8.0-windows\BlackJackApp.pdb
 C:\Users\Serg\Desktop\BlackJack\BlackJackApp\BlackJackApp\obj\Debug\net8.0-windows\BlackJackApp.genruntimeconfig.cache
 C:\Users\Serg\Desktop\BlackJack\BlackJackApp\BlackJackApp\obj\Debug\net8.0-windows\ref\BlackJackApp.dll
+C:\Users\Serg\Desktop\BlackJack\BlackJackApp\BlackJackApp\obj\Debug\net8.0-windows\BlackJackApp.sourcelink.json

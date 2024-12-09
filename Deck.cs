@@ -22,7 +22,7 @@ public class Deck
         cards = new List<Card>();
         string[] suits = { "hearts", "diamonds", "clubs", "spades" };
         string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
-        int[] values = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11 }; // Значения карт
+        int[] values = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11 };
 
         foreach (var suit in suits)
         {

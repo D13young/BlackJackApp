@@ -19,8 +19,8 @@ public class Player
         Name = name;
         Hand = new List<Card>();
         Score = 0;
-        Balance = 1000; // Начальный баланс
-        Bet = 0; // Начальная ставка
+        Balance = 1000;
+        Bet = 0;
     }
 
     public void PlaceBet(int amount)
@@ -28,7 +28,7 @@ public class Player
         if (amount <= Balance)
         {
             Bet = amount;
-            Balance -= amount; // Уменьшаем баланс на сумму ставки
+            Balance -= amount;
         }
         else
         {
@@ -38,12 +38,12 @@ public class Player
 
     public void WinBet()
     {
-        Balance += Bet * 2; // Увеличиваем баланс на сумму выигрыша
-        Bet = 0; // Сбрасываем ставку
+        Balance += Bet * 2;
+        Bet = 0;
     }
 
     public void LoseBet()
     {
-        Bet = 0; // Сбрасываем ставку
+        Bet = 0;
     }
 }

@@ -36,7 +36,6 @@ public partial class MainWindow : Window
         }
 
         PlaceBets(100);
-        //MakePot(player.Bet + dealer.Bet);
         DealCards();
         UpdateUI();
     }
@@ -53,11 +52,6 @@ public partial class MainWindow : Window
             MessageBox.Show(ex.Message);
         }
     }
-
-    //private void MakePot(int amount)
-    //{
-    //    pot += amount;
-    //}
 
     private void DealCards()
     {
@@ -117,7 +111,6 @@ public partial class MainWindow : Window
 
     private void StandButton_Click(object sender, RoutedEventArgs e)
     {
-        // Игрок завершает ход, дилер играет
         dealer.Play(deck);
         UpdateUI();
         DetermineWinner();
@@ -163,7 +156,7 @@ public partial class MainWindow : Window
                 Source = new BitmapImage(new Uri($"pack://application:,,,/Images/{card.Rank}_of_{card.Suit}.png")),
                 Width = 100,
                 Height = 150,
-                Margin = new Thickness(5) // Устанавливаем отступ между картами
+                Margin = new Thickness(5)
             };
             PlayerHand.Children.Add(cardImage);
         }
@@ -176,7 +169,7 @@ public partial class MainWindow : Window
                 Source = new BitmapImage(new Uri($"pack://application:,,,/Images/{card.Rank}_of_{card.Suit}.png")),
                 Width = 100,
                 Height = 150,
-                Margin = new Thickness(5) // Устанавливаем отступ между картами
+                Margin = new Thickness(5)
             };
             DealerHand.Children.Add(cardImage);
         }
