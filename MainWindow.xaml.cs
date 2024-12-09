@@ -93,7 +93,6 @@ public partial class MainWindow : Window
 
     private void HitButton_Click(object sender, RoutedEventArgs e)
     {
-        // Игрок берет карту
         player.Hand.Add(DrawCard());
         player.Score = CalculateScore(player.Hand);
         UpdateUI();
