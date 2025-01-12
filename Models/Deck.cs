@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BlackJackApp;
+namespace BlackJackApp.Models;
 
 public class Deck
 {
-    private List<Card> cards;
+    private readonly List<Card> cards;
     private readonly Random random;
 
     public Deck()
     {
         random = new Random();
-        CreateDeck();
+        cards = CreateDeck();
     }
 
-    private void CreateDeck()
+    private static List<Card> CreateDeck()
     {
-        cards = new List<Card>();
-        string[] suits = { "hearts", "diamonds", "clubs", "spades" };
+        var cards = new List<Card>();
+        string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
         string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
         int[] values = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11 };
 
@@ -31,16 +28,16 @@ public class Deck
                 cards.Add(new Card(suit, ranks[i], values[i]));
             }
         }
+        return cards;
     }
 
     public void Shuffle()
     {
-        for (int i = 0; i < cards.Count; i++)
+        int n = cards.Count;
+        for (int i = 0; i < n; i++)
         {
-            int j = random.Next(i, cards.Count);
-            var temp = cards[i];
-            cards[i] = cards[j];
-            cards[j] = temp;
+            int j = random.Next(i, n);
+            (cards[i], cards[j]) = (cards[j], cards[i]);
         }
     }
 
@@ -48,21 +45,19 @@ public class Deck
     {
         if (cards.Count == 0)
         {
-            throw new InvalidOperationException("Deck is empty.");
+            throw new InvalidOperationException("Колода пуста.");
         }
         Card card = cards[0];
         cards.RemoveAt(0);
         return card;
     }
 
-    public int CardsRemaining()
-    {
-        return cards.Count;
-    }
+    public int CardsRemaining() => cards.Count;
 
     public void ResetAndShuffle()
     {
-        CreateDeck();
+        cards.Clear();
+        cards.AddRange(CreateDeck());
         Shuffle();
     }
 }

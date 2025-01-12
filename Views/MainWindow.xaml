@@ -1,0 +1,50 @@
+﻿<Window x:Class="BlackJackApp.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Window" Height="800" Width="800" Background="Green">
+    <StackPanel Margin="20">
+        <TextBlock Text="{Binding PlayerStatus}" FontSize="16" Margin="0,5"/>
+        <TextBlock Text="{Binding PotAmount}" FontSize="16" Margin="0,5"/>
+        <TextBlock Text="{Binding PlayerBalance}" FontSize="16" Margin="0,5"/>
+        
+
+        <ItemsControl ItemsSource="{Binding PlayerHand}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <Image Source="{Binding Image}" Width="100" Height="150"/>
+                        <TextBlock Text="{Binding Score}" FontSize="14" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBlock Text="{Binding DealerStatus}" FontSize="16" Margin="0,5"/>
+        <TextBlock Text="{Binding DealerBalance}" FontSize="16" Margin="0,5"/>
+        
+        <ItemsControl ItemsSource="{Binding DealerHand}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <Image Source="{Binding Image}" Width="100" Height="150"/>
+                        <TextBlock Text="{Binding Score}" FontSize="14" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Button Command="{Binding StartNewGameCommand}" Content="Начать новую игру" Margin="0,5"/>
+        <Button Command="{Binding HitCommand}" Content="Взять карту" Margin="0,5" IsEnabled="{Binding CanHit}"/>
+        <Button Command="{Binding StandCommand}" Content="Остаться" Margin="0,5" IsEnabled="{Binding CanStand}"/>
+    </StackPanel>
+</Window>
