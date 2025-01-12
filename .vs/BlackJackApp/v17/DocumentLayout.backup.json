@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\models\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\models\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\views\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\views\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\models\\dealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\models\\dealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|c:\\users\\serg\\desktop\\blackjack\\blackjackapp\\blackjackapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9E41DE3-C108-4D80-B356-7779F68957CE}|BlackJackApp\\BlackJackApp.csproj|solutionrelative:blackjackapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BlackJackApp\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "BlackJackApp\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T15:17:59.263Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BlackJackApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:19:46.624Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "BlackJackApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAA1wA8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:50.572Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Card.cs",
+              "RelativeToolTip": "BlackJackApp\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:07.293Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Deck.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Models\\Deck.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Deck.cs",
+              "RelativeToolTip": "BlackJackApp\\Models\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:46.918Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dealer.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Dealer.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Models\\Dealer.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Dealer.cs",
+              "RelativeToolTip": "BlackJackApp\\Models\\Dealer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:41.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\Player.cs",
+              "RelativeToolTip": "BlackJackApp\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:47.833Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\Styles.xaml",
+              "RelativeDocumentMoniker": "BlackJackApp\\Views\\Styles.xaml",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Views\\Styles.xaml",
+              "RelativeToolTip": "BlackJackApp\\Views\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T15:18:02.746Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "BlackJackApp\\Models\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Serg\\Desktop\\BlackJack\\BlackJackApp\\BlackJackApp\\Models\\RelayCommand.cs",
+              "RelativeToolTip": "BlackJackApp\\Models\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:17:48.713Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
