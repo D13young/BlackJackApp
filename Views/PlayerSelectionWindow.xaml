@@ -1,0 +1,17 @@
+﻿<Window x:Class="BlackJackApp.Views.PlayerSelectionWindow"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource PlayerSelectionWindow}">
+
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Выберите или создайте игрока" HorizontalAlignment="Center" FontSize="16" Margin="0,10"/>
+            <ComboBox x:Name="PlayersComboBox" DisplayMemberPath="Name" Margin="0,10"/>
+            <TextBox x:Name="NewPlayerName" Text="Введите имя нового игрока"
+                     GotFocus="NewPlayerName_GotFocus" LostFocus="NewPlayerName_LostFocus" Margin="0,10"/>
+            <Button Content="Создать нового игрока" Click="CreateNewPlayer_Click" Margin="0,10"/>
+            <Button Content="Выбрать игрока" Click="SelectPlayer_Click" Margin="0,10"/>
+        </StackPanel>
+    </Grid>
+</Window>

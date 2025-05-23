@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BlackJackApp": {
+      "commandName": "Project",
+      "sqlDebugging": false
+    }
+  }
+}

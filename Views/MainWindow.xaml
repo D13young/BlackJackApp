@@ -1,0 +1,106 @@
+﻿<Window x:Class="BlackJackApp.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Style="{StaticResource MainWindow}">
+
+    <Grid>
+        <StackPanel Margin="10">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                <Image Source="/Images/head.png" Height="100"/>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Image gif:ImageBehavior.AnimatedSource="{Binding CoinImage}" Width="25" Height="25"/>
+                <TextBlock Text="{Binding DealerBalance}" FontSize="16" Margin="5"/>
+                <TextBlock Text="{Binding DealerStatus}" FontSize="16" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Height="230">
+                <ItemsControl ItemsSource="{Binding DealerHand}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <Image gif:ImageBehavior.AnimatedSource="{Binding Image}" Width="150" Height="200"/>
+                            <TextBlock Text="{Binding Value}" FontSize="14" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5">
+                <Image gif:ImageBehavior.AnimatedSource="/Images/moneybag.gif" Width="25" Height="25"/>
+                <TextBlock Text="{Binding PotAmount}" FontSize="16" Margin="5"/>
+            </StackPanel>
+            
+
+            <TextBlock Text="{Binding PlayerName}" FontSize="16" Margin="5"/>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Image gif:ImageBehavior.AnimatedSource="{Binding CoinImage}" Width="25" Height="25"/>
+                <TextBlock Text="{Binding PlayerBalance}" FontSize="16" Margin="5"/>
+                <TextBlock Text="{Binding PlayerStatus}" FontSize="16" Margin="5"/>
+            </StackPanel>
+            
+
+            <ItemsControl ItemsSource="{Binding PlayerHand}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <Image gif:ImageBehavior.AnimatedSource="{Binding Image}" Width="150" Height="200"/>
+                            <TextBlock Text="{Binding Value}" FontSize="14" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" 
+            HorizontalAlignment="Right" 
+            VerticalAlignment="Bottom"
+            Margin="30" Cursor="">
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,10">
+                <TextBlock Text="Ставка:" 
+                   VerticalAlignment="Center"
+                   Margin="0,0,5,0"/>
+                <ComboBox ItemsSource="{Binding AvailableBets}"
+                  SelectedItem="{Binding SelectedBet}"
+                  Width="80"
+                  Style="{StaticResource ComboBoxStyle}"/>
+            </StackPanel>
+
+            <Button Command="{Binding StartNewGameCommand}" 
+            Content="Раздать карты"
+            Style="{StaticResource Button}"
+            Width="150"
+            Margin="5,0"/>
+
+            <Button Command="{Binding HitCommand}" 
+            Content="Взять карту" 
+            Style="{StaticResource Button}"
+            Width="150"
+            Margin="5,0"
+            IsEnabled="{Binding CanHit}"/>
+
+            <Button Command="{Binding StandCommand}" 
+            Content="Остаться" 
+            Style="{StaticResource Button}"
+            Width="150"
+            Margin="5,0"
+            IsEnabled="{Binding CanStand}"/>
+        </StackPanel>
+    </Grid>
+</Window>
