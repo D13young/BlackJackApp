@@ -17,7 +17,7 @@ This is a simple BlackJack game application built with .NET 8 and WPF. It allows
 -   Microsoft SQL Server
 
 ## 🗂️ Folder Structure
-
+```
 d13young-blackjackapp/
 ├── App.xaml
 ├── App.xaml.cs
@@ -43,6 +43,7 @@ d13young-blackjackapp/
 │   ├── PlayerSelectionWindow.xaml
 │   ├── PlayerSelectionWindow.xaml.cs
 │   └── Styles.xaml
+```
 
 ## ⚙️ Setup Instructions
 
