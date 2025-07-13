@@ -3,7 +3,7 @@
 This is a simple BlackJack game application built with .NET 8 and WPF. It allows users to play Blackjack against a dealer. The game includes features such as betting, hitting, standing, and determining the game result.
 
 <p align="center">
-  <img src="./Images/sh.JPG" alt="Screenshot" width="500">
+  <img src="./Images/sh.JPG" alt="Screenshot" width="700">
 </p>
 
 ## ✨ Features
